@@ -1,0 +1,110 @@
+\documentclass[11pt,a4paper]{article}
+\date{}
+
+\usepackage{titlesec}
+\usepackage{titling}
+\usepackage{hyperref}
+\usepackage[margin=2cm]{geometry}
+
+\renewcommand{\familydefault}{\sfdefault}
+
+\titleformat{\section}
+{\rmfamily\Huge}
+{}
+{0em}
+{}[\titlerule]
+
+\titleformat{\subsection}
+{\bfseries\large}
+{}
+{0.0em}
+{}
+
+\titleformat{\subsubsection}[runin]
+{\bfseries\large}
+{$\bullet$}
+{0.5em}
+{}
+
+\renewcommand{\maketitle}{
+\begin{center}
+{\huge\bfseries
+\theauthor}
+
+\vspace{.25em}
+
+\thetitle
+
+\vspace{.25em}
+
+contact@pouriamokhtari.ir
+\end{center}
+}
+
+\begin{document}
+\title{Site Reliability Engineering R\'esum\'e}
+\author{Pouria Mokhtari}
+
+\maketitle
+\section{Experience}
+
+\subsection{Medeschain --- Site Reliability Engineering}
+August 2021 --- present
+
+\begin{itemize}
+	\setlength\itemsep{0.1em}
+	\item{Maintained a private Gitlab instance for CI/CD with dedicated build servers.}
+	\item{Configured VMware ESXI virtual machines to be used as Kubernetes nodes.}
+	\item{Worked with Kubernetes and Docker, extending clusters and load-balancing for new products.}
+	\item{Installed and maintained a Kubernetes Dashboard to visualize cluster status.}
+	\item{Configured the ELK stack for container monitoring + log management.}
+	\item{Used Ansible to setup multiple instances of different services.}
+	\item{Used Terraform to manage and reproduce infrastructure across platforms.}
+\end{itemize}
+
+\subsection{Agah E-Commerce --- Site Reliability Engineering}
+August 2020 ---  August 2021
+\begin{itemize}
+	\setlength\itemsep{0.1em}
+	\item{Configuration of Gitlab CI/CD setup with build servers and automatic testing and deployment.}
+	\item{Configured Envoy as gateway and reverse-proxy.}
+	\item{Traefik Docker container-based service configuration and load-balancing.}
+	\item{Implemented performance monitoring with Prometheus.}
+	\item{Used Docker and docker-compose to maintain 30+ services.}
+	\item{Created build and containerization scripts for many projects based on frontend and backend web-development frameworks and libraries. Including Vue, Angular, React, Nextjs, ROR, ExpressJS, Laravel, ASP.NET core and... .}
+	\item{Maintained and hardened serveral cryptocurrency node servers with their respective JSON-RPC APIs.}
+	\item{Implemented interval-based and synchronization backup solutions.}
+\end{itemize}
+
+\subsection{Karama --- System Administration}
+March 2019 --- July 2020
+\begin{itemize}
+	\setlength\itemsep{0.1em}
+	\item{Load-balancing implementation with nginx.}
+	\item{Used Docker and docker-compose to maintain 10+ API services.}
+	\item{Implemented setup scripts and configurations with Chef.}
+	\item{Used Jenkins to implement a simple CI/CD workflow.}
+	\item{Linux server setup, hardening and maintainance (Debian, CentOS).}
+	\item{Installed and configured OpenBSD-based storage server.}
+	\item{Maintained Email Servers (SMTP, IMAP).}
+	\item{Worked with Proxmox to create and Manage Virtual machines.}
+\end{itemize}
+
+\section{Education}
+
+\subsection {Urmia University of Technology --- Bachelors Degree}
+September 2018 --- July 2022
+
+\section{Skills}
+
+\section{Contact}
+
+\subsubsection{Phone:}
++98 935 761 1522
+\subsubsection{Website:}
+\url{https://pouriamokhtari.ir}
+
+\subsubsection{Github:}
+\url{https://github.com/pouriamokhtari}
+
+\end{document}
